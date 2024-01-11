@@ -1,0 +1,12 @@
+Source: ros-noetic-wrapyfi-ros-interfaces
+Section: misc
+Priority: optional
+Maintainer: Fares Abawi <f.abawi@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-wrapyfi-ros-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Description: The wrapyfi_ros_interfaces package
